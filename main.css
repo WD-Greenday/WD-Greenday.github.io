@@ -64,10 +64,10 @@ body{
 .section1 .container .carousel-inner .active button{
 	position: absolute;
 	top: 400px;
-	left: 790px;
-	padding: 20px;
+	left: 800px;
+	padding: 15px;
 	background-color: forestgreen;
-	font-size: 20px;
+	font-size: 16px;
 	color: white;
 	border: 1px solid forestgreen;
 }
@@ -314,10 +314,11 @@ body{
 	overflow: hidden;
 }
 .section8 .grid .vuong img{
-	transform: scale(1.1);
+	transform: scale(1.15);
+	cursor: pointer;
 }
 .section8 .grid .vuong:hover img{
-	transform: scale(1);
+	transform: scale(1.1);
 	transition: all 0.3s linear;
 }
 .section9{
